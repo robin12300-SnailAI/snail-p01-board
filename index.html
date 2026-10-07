@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>蜗牛AI视频梦工厂 · P01 亚马逊样片制片看板</title>
+<style>
+  :root{
+    --bg:#0f1115; --card:#1a1d24; --card2:#20242e; --line:#2c313d;
+    --txt:#e8eaf0; --sub:#9aa3b2; --accent:#4f8cff; --ok:#3ecf8e; --warn:#f5a623;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);color:var(--txt);font-family:-apple-system,"PingFang SC","Helvetica Neue",sans-serif;line-height:1.6;padding:32px 4vw 80px}
+  h1{font-size:26px;margin-bottom:4px}
+  h2{font-size:19px;margin:40px 0 14px;padding-left:12px;border-left:4px solid var(--accent)}
+  .meta{color:var(--sub);font-size:13px;margin-bottom:24px}
+  .badges{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 6px}
+  .badge{background:var(--card2);border:1px solid var(--line);border-radius:20px;padding:3px 14px;font-size:12.5px;color:var(--sub)}
+  .badge.ok{color:var(--ok);border-color:rgba(62,207,142,.35)}
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin-top:14px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+  .card .k{color:var(--sub);font-size:12.5px;margin-bottom:4px}
+  .card .v{font-size:17px;font-weight:600}
+  .flow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:14px}
+  .step{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 16px;font-size:14px}
+  .step b{color:var(--ok);margin-right:6px}
+  .arrow{color:var(--sub)}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:14px;margin-top:14px}
+  .ph{background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;cursor:pointer;transition:transform .15s,border-color .15s}
+  .ph:hover{transform:translateY(-2px);border-color:var(--accent)}
+  .ph img{width:100%;display:block;aspect-ratio:1;object-fit:cover}
+  .ph .cap{padding:8px 10px;font-size:12.5px}
+  .ph .cap b{display:block;font-size:13px}
+  .ph .cap span{color:var(--sub)}
+  .ph.used{border-color:var(--accent)}
+  .tag{display:inline-block;font-size:11px;border-radius:4px;padding:1px 7px;margin-top:4px;background:rgba(79,140,255,.15);color:var(--accent)}
+  table{width:100%;border-collapse:collapse;margin-top:14px;font-size:13.5px;background:var(--card);border-radius:10px;overflow:hidden}
+  th,td{padding:10px 12px;text-align:left;border-bottom:1px solid var(--line);vertical-align:middle}
+  th{background:var(--card2);color:var(--sub);font-weight:500;font-size:12.5px}
+  tr:last-child td{border-bottom:none}
+  td img{width:92px;border-radius:6px;display:block;cursor:pointer}
+  td img:hover{outline:2px solid var(--accent)}
+  .pill{font-size:11.5px;border-radius:12px;padding:2px 10px;white-space:nowrap}
+  .pill.ok{background:rgba(62,207,142,.14);color:var(--ok)}
+  video{width:100%;max-width:860px;display:block;border-radius:12px;margin-top:14px;background:#000}
+  .note{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--warn);border-radius:10px;padding:14px 18px;margin-top:14px;font-size:13.5px;color:var(--sub)}
+  .note b{color:var(--txt)}
+  .small{font-size:12.5px;color:var(--sub)}
+  /* lightbox */
+  #lb{display:none;position:fixed;inset:0;background:rgba(0,0,0,.88);z-index:99;align-items:center;justify-content:center;flex-direction:column;gap:14px;padding:30px}
+  #lb.on{display:flex}
+  #lb img{max-width:92vw;max-height:80vh;border-radius:8px}
+  #lb .lbcap{color:var(--sub);font-size:14px}
+  #lb .lbclose{position:absolute;top:18px;right:26px;font-size:30px;color:#fff;cursor:pointer;background:none;border:none}
+  .footer{margin-top:48px;color:var(--sub);font-size:12.5px;text-align:center}
+</style>
+</head>
+<body>
+
+<h1>🎬 蜗牛AI视频梦工厂 · P01 亚马逊样片 制片看板</h1>
+<div class="meta">AI 应用课教学演示 · AI 全流程制片实录 · 2026-10-07 · 产品：Fullstar Pro XL 蔬菜切碎器（Amazon 真实爆款）</div>
+<div class="badges">
+  <span class="badge ok">✅ AI 全流程制作</span>
+  <span class="badge">37 秒 · 1080P</span>
+  <span class="badge">8 个分镜 · 全程英文字幕</span>
+  <span class="badge">旁白 AI 配音</span>
+  <span class="badge">画面 AI 生成</span>
+</div>
+
+<div class="cards">
+  <div class="card"><div class="k">这条视频怎么来的</div><div class="v">AI 写脚本 → AI 画画面<br>→ AI 配音 → AI 合成<br><span class="small">全程由 AI 智能体团队协作完成</span></div></div>
+  <div class="card"><div class="k">广告结构</div><div class="v">痛点钩子 → 实测<br>→ 前后对比 → 行动号召<br><span class="small">亚马逊爆款视频经典结构</span></div></div>
+  <div class="card"><div class="k">核心卖点</div><div class="v">一刀下去 75% 更快<br><span class="small">手切 3 分钟 → 30 秒</span></div></div>
+  <div class="card"><div class="k">点下方视频 ▶ 播放</div><div class="v">有声 + 全程字幕<br><span class="small">所有图片点击可看大图</span></div></div>
+</div>
+
+<h2>🎥 成片先看（点播放，有声+字幕）</h2>
+<video controls preload="metadata" src="video.mp4"></video>
+
+<h2>⚙️ AI 制片流水线（8 道工序全自动协作）</h2>
+<div class="flow">
+  <div class="step"><b>✅</b>选品+抓产品图<br><span class="small">AI 自动抓取 Amazon 官图 11 张</span></div><span class="arrow">→</span>
+  <div class="step"><b>✅</b>AI 编剧「文澜」<br><span class="small">8镜脚本 / 37秒 / 61词旁白</span></div><span class="arrow">→</span>
+  <div class="step"><b>✅</b>AI 提示词「词锋」<br><span class="small">9张图+8段视频提示词</span></div><span class="arrow">→</span>
+  <div class="step"><b>✅</b>AI 出图<br><span class="small">11 张分镜画面</span></div><span class="arrow">→</span>
+  <div class="step"><b>✅</b>AI 配音<br><span class="small">美式女声 · 权威时间轴</span></div><span class="arrow">→</span>
+  <div class="step"><b>✅</b>AI 出视频<br><span class="small">8 段图生视频</span></div><span class="arrow">→</span>
+  <div class="step"><b>✅</b>AI 合成「辑光」<br><span class="small">剪辑+字幕+混音方案</span></div><span class="arrow">→</span>
+  <div class="step"><b>✅</b>渲染成片<br><span class="small">1080P · 全程字幕</span></div>
+</div>
+
+<h2>📷 原料：AI 从 Amazon 抓取的产品图（11 张，点击看大图）</h2>
+<div class="small" style="margin-top:6px">亮蓝框 = 被 AI 拿去做「锚定参考图」的 4 张——AI 照着它们画分镜，保证产品每帧长得一样。</div>
+<div class="grid">
+  <div class="ph used" data-full="thumbs/listing_07.jpg"><img src="thumbs/listing_07.jpg" alt=""><div class="cap"><b>产品全身棚拍</b><span>→ 锚定「登场」和「定版」镜</span></div></div>
+  <div class="ph used" data-full="thumbs/listing_02.jpg"><img src="thumbs/listing_02.jpg" alt=""><div class="cap"><b>压切动作图</b><span>→ 锚定「压洋葱」镜</span></div></div>
+  <div class="ph used" data-full="thumbs/listing_05.jpg"><img src="thumbs/listing_05.jpg" alt=""><div class="cap"><b>刀组结构图</b><span>→ 锚定「换刀」和「卖点卡」镜</span></div></div>
+  <div class="ph used" data-full="thumbs/listing_04.jpg"><img src="thumbs/listing_04.jpg" alt=""><div class="cap"><b>手持使用图</b><span>→ 锚定「冲洗」镜</span></div></div>
+  <div class="ph" data-full="thumbs/listing_01.jpg"><img src="thumbs/listing_01.jpg" alt=""><div class="cap"><b>主图</b><span>备选</span></div></div>
+  <div class="ph" data-full="thumbs/listing_03.jpg"><img src="thumbs/listing_03.jpg" alt=""><div class="cap"><b>场景图</b><span>备选</span></div></div>
+  <div class="ph" data-full="thumbs/listing_06.jpg"><img src="thumbs/listing_06.jpg" alt=""><div class="cap"><b>配件全家福</b><span>备选</span></div></div>
+  <div class="ph" data-full="thumbs/listing_08.jpg"><img src="thumbs/listing_08.jpg" alt=""><div class="cap"><b>细节图</b><span>备选</span></div></div>
+  <div class="ph" data-full="thumbs/listing_09.jpg"><img src="thumbs/listing_09.jpg" alt=""><div class="cap"><b>细节图</b><span>备选</span></div></div>
+  <div class="ph" data-full="thumbs/listing_10.jpg"><img src="thumbs/listing_10.jpg" alt=""><div class="cap"><b>细节图</b><span>备选</span></div></div>
+  <div class="ph" data-full="thumbs/listing_11.jpg"><img src="thumbs/listing_11.jpg" alt=""><div class="cap"><b>场景图</b><span>备选</span></div></div>
+</div>
+
+<h2>🎞️ 8 个分镜 × AI 生成的画面（点击看大图）</h2>
+<table>
+  <tr><th>#</th><th>画面</th><th>AI 生成图</th><th>英文旁白（=字幕）</th><th>时间</th></tr>
+  <tr><td>S1</td><td>手切洋葱·流泪痛点</td><td><img src="thumbs/shot01_pain.jpg" data-full="thumbs/shot01_pain.jpg"></td><td>"Chopping onions by hand? Three minutes, messy, and lots of tears."</td><td>0.0-6.8s</td></tr>
+  <tr><td>S2</td><td>白棚产品登场</td><td><img src="thumbs/shot02_hero.jpg" data-full="thumbs/shot02_hero.jpg"></td><td>"Meet the Fullstar Pro XL."</td><td>6.8-9.8s</td></tr>
+  <tr><td>S3</td><td>压切洋葱丁入盒</td><td><img src="thumbs/shot03_onion.jpg" data-full="thumbs/shot03_onion.jpg"></td><td>"Press down — perfect onion dices in seconds."</td><td>9.8-13.4s</td></tr>
+  <tr><td>S4</td><td>换刀切土豆条</td><td><img src="thumbs/shot04_blade.jpg" data-full="thumbs/shot04_blade.jpg"></td><td>"Swap the blade — crisp potato fries-style sticks."</td><td>13.4-17.5s</td></tr>
+  <tr><td>S5</td><td>分屏对比：手切 3 分钟 vs 切碎器 30 秒</td><td><img src="thumbs/shot05L_hand.jpg" data-full="thumbs/shot05L_hand.jpg"></td><td>"Three minutes by hand — thirty seconds with Fullstar. That's seventy-five percent faster."</td><td>17.5-25.1s</td></tr>
+  <tr><td>S6</td><td>暗底卖点卡</td><td><img src="thumbs/shot06_card.jpg" data-full="thumbs/shot06_card.jpg"></td><td>"Four interchangeable blades. No mess, no tears."</td><td>25.1-30.7s</td></tr>
+  <tr><td>S7</td><td>水槽冲洗</td><td><img src="thumbs/shot07_rinse.jpg" data-full="thumbs/shot07_rinse.jpg"></td><td>"Everything rinses clean in seconds."</td><td>30.7-34.0s</td></tr>
+  <tr><td>S8</td><td>定版 + SHOP NOW</td><td><img src="thumbs/shot08_cta.jpg" data-full="thumbs/shot08_cta.jpg"></td><td>"Fullstar Pro XL — chop faster today."</td><td>34.0-37.4s</td></tr>
+</table>
+<div class="small" style="margin-top:8px">S5 分屏的另一半：</div>
+<div class="grid" style="margin-top:8px">
+  <div class="ph" data-full="thumbs/shot05R_chopper.jpg"><img src="thumbs/shot05R_chopper.jpg" alt=""><div class="cap"><b>S5 右半</b><span>切碎器侧（同光线同角度镜像生成）</span></div></div>
+</div>
+
+<h2>🐛 AI 制片也会翻车：3 次翻车全部当天修复</h2>
+<div class="note"><b>① 产品「长歪了」</b>：两张纯文字生成的图把产品画成了圆顶拉绳式切碎器（长得根本不一样）→ 改用真实产品图当参考重新生成。教训：<b>产品广告必须拿真图锚定，AI 凭空画必走样</b>。</div>
+<div class="note"><b>② 字幕符号吃字</b>：「75% FASTER」的 % 被渲染引擎当特殊符号吞掉 → 加参数修复。</div>
+<div class="note"><b>③ 调色参数用错</b>：一个亮度参数写法错误，分屏左半屏差点全黑 → 删掉重渲。</div>
+
+<h2>💰 制作成本</h2>
+<table>
+  <tr><th>项目</th><th>用量</th><th>成本</th></tr>
+  <tr><td>AI 生成图片</td><td>11 张（含 2 张翻车重做）</td><td>≈ ¥3-8</td></tr>
+  <tr><td>AI 生成视频</td><td>8 段 720P</td><td>≈ ¥10-15</td></tr>
+  <tr><td>AI 配音</td><td>61 词英文女声</td><td>≈ ¥0.05</td></tr>
+  <tr><td>剪辑合成</td><td>全自动脚本渲染</td><td>¥0</td></tr>
+</table>
+
+<div class="footer">蜗牛AI · 视频梦工厂 · 本页面由 AI 制片流程自动生成 · 教学演示用（产品素材来自 Amazon 公开 listing，仅作内部训练演示，非商业投放）</div>
+
+<div id="lb"><button class="lbclose" onclick="lbOff()">×</button><img id="lbimg" src="" alt=""><div class="lbcap" id="lbcap">点击任意处关闭</div></div>
+<script>
+function lbOn(src){document.getElementById('lbimg').src=src;document.getElementById('lb').classList.add('on');}
+function lbOff(){document.getElementById('lb').classList.remove('on');}
+document.querySelectorAll('[data-full]').forEach(function(el){
+  el.addEventListener('click',function(){lbOn(el.getAttribute('data-full'));});
+});
+document.getElementById('lb').addEventListener('click',lbOff);
+</script>
+</body>
+</html>
